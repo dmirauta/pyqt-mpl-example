@@ -109,4 +109,6 @@ if __name__ == "__main__":
     #widget.resize(800, 600)
     widget.show()
 
-    sys.exit(app.exec())
+    app_exitcode = app.exec()
+
+    sys.exit(app_exitcode) # do not exit in interactive...

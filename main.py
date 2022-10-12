@@ -8,6 +8,7 @@ from matplotlib.backends.backend_qtagg import (
     FigureCanvas, NavigationToolbar2QT as NavigationToolbar)
 from matplotlib.figure import Figure
 
+#from matplotlib.backends.qt_compat import QtWidgets #no uic
 from PyQt5 import QtWidgets, uic
 
 
